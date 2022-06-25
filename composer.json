@@ -1,0 +1,17 @@
+{
+    "name": "yufusphp/php-vakifbank",
+    "description": "Yusuf Kulcu tarafindan php icin hazirlanmis olan vakifbank sanal pos entegrasyon kutuphanesi",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yufusphp\\Vakifbank\\": "src/"
+        }
+    },
+    "require": {
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "ext-libxml": "*",
+        "ext-json": "*"
+    }
+}
