@@ -7,11 +7,5 @@
         "psr-4": {
             "Yufusphp\\Vakifbank\\": "src/"
         }
-    },
-    "require": {
-        "ext-curl": "*",
-        "ext-simplexml": "*",
-        "ext-libxml": "*",
-        "ext-json": "*"
     }
 }
